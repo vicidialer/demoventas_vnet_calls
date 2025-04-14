@@ -1,0 +1,663 @@
+{
+  "project" : {
+    "id" : "democonversacionvent-1007552-Lqb",
+    "name" : "democonversacionvent-1007552-Lqb",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "es",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "sts",
+    "timezone" : "Europe/Moscow",
+    "extendedSettings" : {
+      "classificationAlgorithmVersion" : 1.0,
+      "useShared" : false
+    },
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : true,
+      "answerValidationEnabled" : true,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/bye",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "adiós"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/hello",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Hola"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "priority" : 0
+  }, {
+    "path" : "/BienvenidaMenuVentasVoz",
+    "answer" : "¡Hola! Soy tu asistente de ventas de soluciones de telecomunicaciones. Puedo ayudarte a encontrar productos y servicios para mejorar tus comunicaciones. Dime, ¿qué te interesa? Puedes elegir una categoría diciendo el número. Por ejemplo, di 'uno' para sistemas IP PBX, 'dos' para teléfonos y diademas, 'tres' para equipos de videoconferencia, 'cuatro' para capacitación en Issabel, o 'cinco' para soporte técnico. ¿Cuál eliges?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Hola"
+    }, {
+      "text" : "Buenos días"
+    }, {
+      "text" : "Buenas tardes"
+    }, {
+      "text" : "¿Qué tal?"
+    }, {
+      "text" : "Quiero comprar algo"
+    }, {
+      "text" : "Necesito información de productos"
+    }, {
+      "text" : "¿Qué venden?"
+    }, {
+      "text" : "¿Qué tienes para vender?"
+    }, {
+      "text" : "Dame información de productos"
+    }, {
+      "text" : "Estoy buscando productos"
+    }, {
+      "text" : "¿Qué productos ofrecen?"
+    }, {
+      "text" : "¿Qué servicios tienen?"
+    }, {
+      "text" : "Hola, quiero comprar"
+    }, {
+      "text" : "Hola, ¿qué venden?"
+    }, {
+      "text" : "Buenas, ¿qué tienes?"
+    }, {
+      "text" : "Hola, ¿qué productos hay?"
+    }, {
+      "text" : "Quiero ver tus productos"
+    }, {
+      "text" : "Dame información de lo que vendes"
+    }, {
+      "text" : "¿Qué tienes disponible?"
+    }, {
+      "text" : "Hola, ¿qué puedo comprar?"
+    }, {
+      "text" : "¿que tranza?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion1_SistemasIPPBX",
+    "answer" : "Perfecto, elegiste sistemas IP PBX. Te recomiendo el Xorcom CompletePBX 5000. Es un equipo ideal para empresas medianas, con capacidad para muchas extensiones y funciones avanzadas como grabación de llamadas. Cuesta 12,500 pesos. ¿Qué te parece? Si te interesa, di 'sí' para seguir con la compra, o 'no' para volver a las opciones.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "1"
+    }, {
+      "text" : "Opción 1"
+    }, {
+      "text" : "Sistemas IP PBX"
+    }, {
+      "text" : "Appliances"
+    }, {
+      "text" : "Opción uno"
+    }, {
+      "text" : "Categoría 1"
+    }, {
+      "text" : "Categoría uno"
+    }, {
+      "text" : "Primera opción"
+    }, {
+      "text" : "Sistemas PBX"
+    }, {
+      "text" : "IP PBX"
+    }, {
+      "text" : "Appliances para PBX"
+    }, {
+      "text" : "Sistemas de telefonía"
+    }, {
+      "text" : "PBX IP"
+    }, {
+      "text" : "Equipo PBX"
+    }, {
+      "text" : "Sistemas de comunicación"
+    }, {
+      "text" : "Dispositivos PBX"
+    }, {
+      "text" : "Sistemas para telefonía"
+    }, {
+      "text" : "PBX appliances"
+    }, {
+      "text" : "Equipo de telefonía IP"
+    }, {
+      "text" : "Sistemas IP para empresas"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion2_TelefonosSIPDiademas",
+    "answer" : "¡Buena elección! En teléfonos SIP y diademas, te recomiendo el combo Yealink T53W con una diadema Grandstream HS-200. Es perfecto para call centers, con pantalla a color en el teléfono y una diadema cómoda con cancelación de ruido. Cuesta 3,200 pesos. ¿Te gusta? Di 'sí' para seguir con la compra, o 'no' para regresar a las opciones.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "2"
+    }, {
+      "text" : "Opción 2"
+    }, {
+      "text" : "Teléfonos SIP"
+    }, {
+      "text" : "Diademas"
+    }, {
+      "text" : "Opción dos"
+    }, {
+      "text" : "Categoría 2"
+    }, {
+      "text" : "Categoría dos"
+    }, {
+      "text" : "Segunda opción"
+    }, {
+      "text" : "Teléfonos para call center"
+    }, {
+      "text" : "Diademas para call center"
+    }, {
+      "text" : "Teléfonos IP"
+    }, {
+      "text" : "Auriculares para call center"
+    }, {
+      "text" : "Teléfonos SIP para empresas"
+    }, {
+      "text" : "Diademas para telefonía"
+    }, {
+      "text" : "Teléfonos de VoIP"
+    }, {
+      "text" : "Auriculares SIP"
+    }, {
+      "text" : "Teléfonos para oficinas"
+    }, {
+      "text" : "Diademas para agentes"
+    }, {
+      "text" : "Teléfonos para comunicación"
+    }, {
+      "text" : "Headsets para call center"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion3_Videoconferencia",
+    "answer" : "Genial, elegiste equipos de videoconferencia. Te ofrezco el Grandstream GVC3220, ideal para salas medianas, con cámara 4K y compatibilidad con Zoom y Teams. Cuesta 18,900 pesos. ¿Qué te parece? Si te interesa, di 'sí' para seguir con la compra, o 'no' para volver a las opciones.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "3"
+    }, {
+      "text" : "Opción 3"
+    }, {
+      "text" : "Equipos de videoconferencia"
+    }, {
+      "text" : "Videoconferencia"
+    }, {
+      "text" : "Opción tres"
+    }, {
+      "text" : "Categoría 3"
+    }, {
+      "text" : "Categoría tres"
+    }, {
+      "text" : "Tercera opción"
+    }, {
+      "text" : "Equipos para videoconferencia"
+    }, {
+      "text" : "Sistemas de videoconferencia"
+    }, {
+      "text" : "Videoconferencias"
+    }, {
+      "text" : "Dispositivos de videoconferencia"
+    }, {
+      "text" : "Equipos para reuniones virtuales"
+    }, {
+      "text" : "Sistemas para videoconferencias"
+    }, {
+      "text" : "Videoconferencia para empresas"
+    }, {
+      "text" : "Equipos de video"
+    }, {
+      "text" : "Dispositivos para reuniones"
+    }, {
+      "text" : "Videoconferencia para oficinas"
+    }, {
+      "text" : "Sistemas de video para empresas"
+    }, {
+      "text" : "Equipos para conferencias"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion4_CapacitacionIssabel",
+    "answer" : "¡Perfecto! En capacitación, te recomiendo nuestro Curso de Certificación Issabel para Administradores. Es un curso de 3 días que te enseña todo sobre configuración y seguridad de PBX. Cuesta 7,500 pesos por persona. ¿Te interesa? Di 'sí' para inscribirte, o 'no' para regresar a las opciones.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "4"
+    }, {
+      "text" : "Opción 4"
+    }, {
+      "text" : "Capacitación en Issabel"
+    }, {
+      "text" : "Capacitación"
+    }, {
+      "text" : "Opción cuatro"
+    }, {
+      "text" : "Categoría 4"
+    }, {
+      "text" : "Categoría cuatro"
+    }, {
+      "text" : "Cuarta opción"
+    }, {
+      "text" : "Entrenamiento en Issabel"
+    }, {
+      "text" : "Cursos de Issabel"
+    }, {
+      "text" : "Capacitación para Issabel"
+    }, {
+      "text" : "Entrenamiento para Issabel"
+    }, {
+      "text" : "Cursos para Issabel"
+    }, {
+      "text" : "Capacitación en telefonía"
+    }, {
+      "text" : "Entrenamiento en PBX"
+    }, {
+      "text" : "Cursos de telefonía IP"
+    }, {
+      "text" : "Capacitación para administradores"
+    }, {
+      "text" : "Entrenamiento para agentes"
+    }, {
+      "text" : "Cursos para supervisores"
+    }, {
+      "text" : "Capacitación en comunicaciones"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Opcion5_SoporteTecnico",
+    "answer" : "Entendido, elegiste soporte técnico. Te ofrezco nuestra Póliza de Soporte Anual, con atención remota y en sitio. Incluye soporte ilimitado remoto y 3 visitas en sitio en la Ciudad de México. Cuesta 25,000 pesos al año. ¿Qué te parece? Di 'sí' para contratarla, o 'no' para volver a las opciones.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "5"
+    }, {
+      "text" : "Opción 5"
+    }, {
+      "text" : "Pólizas de soporte"
+    }, {
+      "text" : "Soporte técnico"
+    }, {
+      "text" : "Opción cinco"
+    }, {
+      "text" : "Categoría 5"
+    }, {
+      "text" : "Categoría cinco"
+    }, {
+      "text" : "Quinta opción"
+    }, {
+      "text" : "Soporte para PBX"
+    }, {
+      "text" : "Pólizas de soporte técnico"
+    }, {
+      "text" : "Soporte para Issabel"
+    }, {
+      "text" : "Soporte técnico para telefonía"
+    }, {
+      "text" : "Pólizas de mantenimiento"
+    }, {
+      "text" : "Soporte remoto"
+    }, {
+      "text" : "Soporte en sitio"
+    }, {
+      "text" : "Pólizas para PBX"
+    }, {
+      "text" : "Soporte para comunicaciones"
+    }, {
+      "text" : "Pólizas de asistencia"
+    }, {
+      "text" : "Soporte técnico para empresas"
+    }, {
+      "text" : "Pólizas de servicio"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/ConfirmarCompra",
+    "answer" : "¡Qué buena decisión! Para finalizar tu compra, necesito algunos datos. Por favor, dime tu nombre y tu número de teléfono. Por ejemplo, puedes decir: 'Mi nombre es Juan y mi número es 5551234567'. Si prefieres que te contactemos más tarde, solo di 'contactar después'. ¿Qué me dices?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Sí"
+    }, {
+      "text" : "Si"
+    }, {
+      "text" : "Confirmo"
+    }, {
+      "text" : "Quiero comprarlo"
+    }, {
+      "text" : "Me interesa"
+    }, {
+      "text" : "Claro"
+    }, {
+      "text" : "Lo quiero"
+    }, {
+      "text" : "Estoy interesado"
+    }, {
+      "text" : "Procede"
+    }, {
+      "text" : "Confirma"
+    }, {
+      "text" : "Sí, quiero"
+    }, {
+      "text" : "Sí, me interesa"
+    }, {
+      "text" : "Claro, procede"
+    }, {
+      "text" : "Quiero ese producto"
+    }, {
+      "text" : "Estoy de acuerdo"
+    }, {
+      "text" : "Sí, confirmo"
+    }, {
+      "text" : "Adelante"
+    }, {
+      "text" : "Compra confirmada"
+    }, {
+      "text" : "Sí, lo compro"
+    }, {
+      "text" : "Me interesa, sí"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/VolverAlMenu",
+    "answer" : "Entendido, te regreso a las opciones. ¿Qué te interesa? Di 'uno' para sistemas IP PBX, 'dos' para teléfonos y diademas, 'tres' para equipos de videoconferencia, 'cuatro' para capacitación en Issabel, o 'cinco' para soporte técnico. ¿Cuál eliges?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "No"
+    }, {
+      "text" : "No gracias"
+    }, {
+      "text" : "Volver al menú"
+    }, {
+      "text" : "Regresar"
+    }, {
+      "text" : "No me interesa"
+    }, {
+      "text" : "No, gracias"
+    }, {
+      "text" : "Regresa al menú"
+    }, {
+      "text" : "Volver"
+    }, {
+      "text" : "No quiero"
+    }, {
+      "text" : "Regresar al inicio"
+    }, {
+      "text" : "No, volver"
+    }, {
+      "text" : "No, regresar"
+    }, {
+      "text" : "Vuelve al menú"
+    }, {
+      "text" : "No, regresa"
+    }, {
+      "text" : "No estoy interesado"
+    }, {
+      "text" : "Regresa al menú principal"
+    }, {
+      "text" : "No, quiero volver"
+    }, {
+      "text" : "Volver al inicio"
+    }, {
+      "text" : "No, menú"
+    }, {
+      "text" : "Regresar a las opciones"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/OpcionInvalida",
+    "answer" : "Lo siento, no entendí eso. Por favor, dime un número del uno al cinco para elegir una categoría. Si quieres escuchar las opciones otra vez, solo di 'hola'. ¿Qué me dices?",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "No entiendo"
+    }, {
+      "text" : "Eso no es una opción"
+    }, {
+      "text" : "Opción inválida"
+    }, {
+      "text" : "No es un número válido"
+    }, {
+      "text" : "Qué"
+    }, {
+      "text" : "No es una opción"
+    }, {
+      "text" : "Eso no está en el menú"
+    }, {
+      "text" : "Opción no válida"
+    }, {
+      "text" : "Número inválido"
+    }, {
+      "text" : "No es válido"
+    }, {
+      "text" : "Eso no funciona"
+    }, {
+      "text" : "Opción incorrecta"
+    }, {
+      "text" : "Número no válido"
+    }, {
+      "text" : "No es una categoría"
+    }, {
+      "text" : "Eso no es correcto"
+    }, {
+      "text" : "Opción no encontrada"
+    }, {
+      "text" : "No es un número"
+    }, {
+      "text" : "Categoría inválida"
+    }, {
+      "text" : "No entiendo la opción"
+    }, {
+      "text" : "Eso no es un número"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/DatosContacto",
+    "answer" : "Gracias por darme tus datos. Un agente te contactará pronto para confirmar tu pedido. Si pediste que te contactemos después, te llamaremos más tarde. ¡Gracias por elegirnos! ¿Quieres escuchar las opciones otra vez? Di 'sí' para volver a las categorías, o 'adiós' para terminar.",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Mi nombre es"
+    }, {
+      "text" : "Mi número es"
+    }, {
+      "text" : "Contactar después"
+    }, {
+      "text" : "Mi nombre"
+    }, {
+      "text" : "Mi teléfono"
+    }, {
+      "text" : "Llamar después"
+    }, {
+      "text" : "Contactarme después"
+    }, {
+      "text" : "Mi contacto es"
+    }, {
+      "text" : "Nombre y número"
+    }, {
+      "text" : "Datos de contacto"
+    }, {
+      "text" : "Contáctenme después"
+    }, {
+      "text" : "Luego me contactan"
+    }, {
+      "text" : "Mi información es"
+    }, {
+      "text" : "Mis datos son"
+    }, {
+      "text" : "Contactar más tarde"
+    }, {
+      "text" : "Llamen después"
+    }, {
+      "text" : "Mi número de teléfono"
+    }, {
+      "text" : "Dame un momento"
+    }, {
+      "text" : "Contáctenme más tarde"
+    }, {
+      "text" : "Después me llaman"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Despedida",
+    "answer" : "¡Adiós! Gracias por hablar conmigo. Si necesitas algo más, aquí estaré. ¡Que tengas un excelente día!",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Adiós"
+    }, {
+      "text" : "Hasta luego"
+    }, {
+      "text" : "Nos vemos"
+    }, {
+      "text" : "Chao"
+    }, {
+      "text" : "Bye"
+    }, {
+      "text" : "Gracias, adiós"
+    }, {
+      "text" : "Hasta pronto"
+    }, {
+      "text" : "Me voy"
+    }, {
+      "text" : "Terminar"
+    }, {
+      "text" : "Finalizar"
+    }, {
+      "text" : "Adiós, gracias"
+    }, {
+      "text" : "Nos vemos después"
+    }, {
+      "text" : "Chao, gracias"
+    }, {
+      "text" : "Hasta la próxima"
+    }, {
+      "text" : "Bye bye"
+    }, {
+      "text" : "Gracias y adiós"
+    }, {
+      "text" : "Terminé"
+    }, {
+      "text" : "Salir"
+    }, {
+      "text" : "Cerrar"
+    }, {
+      "text" : "Adiós, nos vemos"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "slots" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}
