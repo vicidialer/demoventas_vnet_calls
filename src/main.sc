@@ -3,7 +3,7 @@ require: slotfilling/slotFilling.sc
 theme: /
 
     state: Start
-        $dialer.setTtsConfig({ voice: "es-MX-BeatrizNeural" });
+        $dialer.setTtsConfig({ VoiceName: "es-MX-BeatrizNeural" });
         q!: $regex</start>
         a: Empecemos.
 
