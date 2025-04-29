@@ -4,7 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        $dialer.setTtsConfig({ voiceName: "es-AR-ElenaNeural" });
+            $dialer.setTtsConfig({ voiceName: "es-AR-ElenaNeural" });
         a: Empecemos.
 
     state: Hello
